@@ -20,4 +20,9 @@ public class Musica{
   public void setAvaliacao(int avaliacao){
     this.avaliacao = avaliacao;
   }
+  @Override
+  public String toString(){
+    return String.format("(%s %d)", titulo, avaliacao);
+    
+  }
 }
